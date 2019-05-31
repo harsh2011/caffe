@@ -2,6 +2,7 @@ syntax = "proto2";
 
 package caffe;
 
+// add center loss
 // Specifies the shape (dimensions) of a Blob.
 message BlobShape {
   repeated int64 dim = 1 [packed = true];
